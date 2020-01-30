@@ -1,0 +1,16 @@
+#!/bin/bash
+
+touch /etc/dconf/db/local.d/00-screensaver
+
+echo '[org/gnome/desktop/screensaver]' >> /etc/dconf/db/local.d/00-screensaver
+echo 'lock-enabled=true' >> /etc/dconf/db/local.d/00-screensaver
+echo 'picture-uri=string' >> /etc/dconf/db/local.d/00-screensaver
+echo 'idle-activation-enabled=true' >> /etc/dconf/db/local.d/00-screensaver
+echo 'show-full-name-in-top-bar=false' >> /etc/dconf/db/local.d/00-screensaver
+echo 'show-full-name-in-top-bar=false' >> /etc/dconf/db/local.d/00-screensaver
+echo 'lock-delay=uint32 0' >> /etc/dconf/db/local.d/00-screensaver
+echo '[org/gnome/desktop/session]' >> /etc/dconf/db/local.d/00-screensaver
+echo 'idle-delay=uint32 900' >> /etc/dconf/db/local.d/00-screensaver
+
+##Update the dconf
+dconf update
