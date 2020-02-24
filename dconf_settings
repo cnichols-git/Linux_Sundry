@@ -1,4 +1,6 @@
 #!/bin/bash
+##settings to change the desktop screensaver and screen lock
+
 
 touch /etc/dconf/db/local.d/00-screensaver
 

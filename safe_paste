@@ -1,0 +1,10 @@
+##
+#A bash scipt that is first echoed to prove what it is doing then allow you to copy pasta
+
+#Safe
+
+#bash command pipe it to awk and change a file
+
+
+#now paste in the edited code to perform the approved action
+
