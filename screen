@@ -1,0 +1,17 @@
+Using Linux screen command
+
+	- This is for running a command that will run for a long time
+
+ex. ping google.com gor a long time
+
+#screen (press enter)
+
+run command
+
+now press ctrl + a
+ now press ctrl + d
+
+Now when you are ready to pull up the already running session type scree -dr
+*detaches any current sessions and the r attaches the old session
+
+once you are done with the project exit will quit all screen sessions and get back to the normal terminal
