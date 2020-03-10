@@ -1,0 +1,7 @@
+##
+# This will increase the size of a Virtualbox VM to 40GB.
+
+
+chris@office:~/VirtualBox VMs/Win10$ VBoxManage modifyhd Wim10.vdi --resize 40960
+0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100%
+chris@office:~/VirtualBox VMs/Win10$ 
