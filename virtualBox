@@ -5,3 +5,8 @@
 chris@office:~/VirtualBox VMs/Win10$ VBoxManage modifyhd Wim10.vdi --resize 40960
 0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100%
 chris@office:~/VirtualBox VMs/Win10$ 
+
+
+# Yes that is a miss spelled Win10, so the .vdi will not change but the name will when you correct that. Who knew
+
+# now you will go into the OS and tell it to use that space. You can use Ubuntu disk tools on a bootable .ISO. 
