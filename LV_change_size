@@ -1,0 +1,2 @@
+# create a lvm that is 1MB 
+sudo lvcreate -n test-vol -L 1M vg_testbox
