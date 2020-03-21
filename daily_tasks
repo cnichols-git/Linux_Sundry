@@ -1,8 +1,25 @@
-Is anyone on this computer
-# who
+# Is anyone on this computer
+who
 
-Does this use have the abilty to install software
-# getent wheel username
+# does this use have the abilty to install software
+getent wheel username
 
+# who has root access 
+grep wheel /etc/group
 
+## SCP
+# secure copy SCP to remote host to a folder named tmp
+sudo scp /home/user/Documents/random_file.txt username@remote_host:/tmp
 
+# if you are in a folder
+user@host:~/Documents$ ls
+random_file.txt
+sudo scp random_file.txt username@remote_host:/tmp
+
+## RSYNC
+# rsync files
+sudo rsync -a file.txt uername@remote_host /v/file_share/Documents
+
+# list stuff about disks
+lsblk - list mounted devices
+df | df -h | df -Phl - disk free, shows space usage
